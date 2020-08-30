@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="poltek_kediri.informatika.dashboarddasar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".timertest"></activity>
+        <activity android:name=".dir_kuis.PQuiz1" />
+        <activity android:name=".Launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".dir_kuis.AwalActivity" />
+        <activity android:name=".dir_lesson.MateriActivity" />
+        <activity android:name=".dir_lesson.ViewPDF" />
+        <activity android:name=".dir_lesson.ViewPDF2" />
+        <activity android:name=".dir_lesson.ViewPDF3" />
+        <activity android:name=".dir_kuis.QuizActivity" />
+        <activity android:name=".dir_kuis.Quiz1" />
+        <activity android:name=".dir_kuis.Quiz2" />
+        <activity android:name=".dir_kuis.Quiz3" />
+        <activity android:name=".dir_kuis.PQuiz2" />
+        <activity android:name=".dir_kuis.PQuiz3" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".dir_kuis.ResultActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".FormActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">English Quiz</string>
+    <string name="about">
+        Aplikasi ini dibuat guna menyelesaikan
+        tugas proyek 1 dan juga Aplikasi ini
+        tidak dapat didownload dimanapun
+
+
+    </string>
+    <string name="text_masukin_nama">Please enter your name</string>
+
+    <string name="help1">Choose a category</string>
+    <string name="help2">Each category contains 10 questions</string>
+    <string name="help3">Answer the questions</string>
+    <string name="help4">Check your result in score menu</string>
+</resources>
